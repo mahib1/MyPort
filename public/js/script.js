@@ -28,7 +28,7 @@ const typeWriter = async (sentenceArr, id) => {
 }
 
 document.addEventListener('DOMContentLoaded' , () => {
-  const sentences = ["Hello world!" , "I am MAHIB...", "cd ./myPortfolio", "echo $SKILLS" , "python" , "rust " , "C++" , "javaScript"]; 
+  const sentences = ["Hello world!" , "I am MAHIB...", "python" , "rust " , "C++" , "javaScript"]; 
   typeWriter(sentences , "typeWriter"); 
 }); 
 
